@@ -22,7 +22,7 @@ inputs:
 
 runs:
   using: docker
-  image: docker://danielflook/terraform-github-actions@sha256:58b279738cab51c9bb4b8201afeff9e585ce72f9a30ee0490896ad8827e7e96b
+  image: docker://danielflook/terraform-github-actions@sha256:4c0a6f98ddafa03699d7fb059010f6b5f88d5a8903d1d2e66660ec799de9efad
   entrypoint: /entrypoints/fmt.sh
 
 branding:
